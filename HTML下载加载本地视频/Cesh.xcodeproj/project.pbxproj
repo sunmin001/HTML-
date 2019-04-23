@@ -1,0 +1,744 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0D174939226469DE00A2051F /* crypt.c in Sources */ = {isa = PBXBuildFile; fileRef = 0D174912226469DE00A2051F /* crypt.c */; };
+		0D17493A226469DE00A2051F /* unzip.c in Sources */ = {isa = PBXBuildFile; fileRef = 0D174913226469DE00A2051F /* unzip.c */; };
+		0D17493B226469DE00A2051F /* zip.c in Sources */ = {isa = PBXBuildFile; fileRef = 0D174914226469DE00A2051F /* zip.c */; };
+		0D17493C226469DE00A2051F /* ioapi.c in Sources */ = {isa = PBXBuildFile; fileRef = 0D174916226469DE00A2051F /* ioapi.c */; };
+		0D17493D226469DE00A2051F /* ioapi_buf.c in Sources */ = {isa = PBXBuildFile; fileRef = 0D174918226469DE00A2051F /* ioapi_buf.c */; };
+		0D17493E226469DE00A2051F /* ioapi_mem.c in Sources */ = {isa = PBXBuildFile; fileRef = 0D17491C226469DE00A2051F /* ioapi_mem.c */; };
+		0D17493F226469DE00A2051F /* minishared.c in Sources */ = {isa = PBXBuildFile; fileRef = 0D17491D226469DE00A2051F /* minishared.c */; };
+		0D174940226469DE00A2051F /* aeskey.c in Sources */ = {isa = PBXBuildFile; fileRef = 0D174923226469DE00A2051F /* aeskey.c */; };
+		0D174941226469DE00A2051F /* hmac.c in Sources */ = {isa = PBXBuildFile; fileRef = 0D174924226469DE00A2051F /* hmac.c */; };
+		0D174942226469DE00A2051F /* aescrypt.c in Sources */ = {isa = PBXBuildFile; fileRef = 0D174927226469DE00A2051F /* aescrypt.c */; };
+		0D174943226469DE00A2051F /* fileenc.c in Sources */ = {isa = PBXBuildFile; fileRef = 0D174928226469DE00A2051F /* fileenc.c */; };
+		0D174944226469DE00A2051F /* sha1.c in Sources */ = {isa = PBXBuildFile; fileRef = 0D17492A226469DE00A2051F /* sha1.c */; };
+		0D174945226469DE00A2051F /* aes_ni.c in Sources */ = {isa = PBXBuildFile; fileRef = 0D17492D226469DE00A2051F /* aes_ni.c */; };
+		0D174946226469DE00A2051F /* prng.c in Sources */ = {isa = PBXBuildFile; fileRef = 0D17492F226469DE00A2051F /* prng.c */; };
+		0D174947226469DE00A2051F /* pwd2key.c in Sources */ = {isa = PBXBuildFile; fileRef = 0D174931226469DE00A2051F /* pwd2key.c */; };
+		0D174948226469DE00A2051F /* aestab.c in Sources */ = {isa = PBXBuildFile; fileRef = 0D174932226469DE00A2051F /* aestab.c */; };
+		0D174949226469DE00A2051F /* SSZipArchive.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D174937226469DE00A2051F /* SSZipArchive.m */; };
+		0D17494D22646D8F00A2051F /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D17494C22646D8F00A2051F /* libz.tbd */; };
+		0D1749562264A88200A2051F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D1749552264A88100A2051F /* Foundation.framework */; };
+		0D18D8FB225F3F0500EA43AF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D18D8FA225F3F0500EA43AF /* AppDelegate.m */; };
+		0D18D8FE225F3F0500EA43AF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D18D8FD225F3F0500EA43AF /* ViewController.m */; };
+		0D18D901225F3F0500EA43AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D18D8FF225F3F0500EA43AF /* Main.storyboard */; };
+		0D18D903225F3F0700EA43AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D18D902225F3F0700EA43AF /* Assets.xcassets */; };
+		0D18D906225F3F0700EA43AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D18D904225F3F0700EA43AF /* LaunchScreen.storyboard */; };
+		0D18D909225F3F0700EA43AF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D18D908225F3F0700EA43AF /* main.m */; };
+		0D18D913225F3F0700EA43AF /* CeshTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D18D912225F3F0700EA43AF /* CeshTests.m */; };
+		0D18D91E225F3F0700EA43AF /* CeshUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D18D91D225F3F0700EA43AF /* CeshUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0D18D90F225F3F0700EA43AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0D18D8EE225F3F0500EA43AF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0D18D8F5225F3F0500EA43AF;
+			remoteInfo = Cesh;
+		};
+		0D18D91A225F3F0700EA43AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0D18D8EE225F3F0500EA43AF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0D18D8F5225F3F0500EA43AF;
+			remoteInfo = Cesh;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0D174910226469DE00A2051F /* ZipArchive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZipArchive.h; sourceTree = "<group>"; };
+		0D174912226469DE00A2051F /* crypt.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = crypt.c; sourceTree = "<group>"; };
+		0D174913226469DE00A2051F /* unzip.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = unzip.c; sourceTree = "<group>"; };
+		0D174914226469DE00A2051F /* zip.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = zip.c; sourceTree = "<group>"; };
+		0D174915226469DE00A2051F /* minishared.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = minishared.h; sourceTree = "<group>"; };
+		0D174916226469DE00A2051F /* ioapi.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ioapi.c; sourceTree = "<group>"; };
+		0D174917226469DE00A2051F /* ioapi_mem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ioapi_mem.h; sourceTree = "<group>"; };
+		0D174918226469DE00A2051F /* ioapi_buf.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ioapi_buf.c; sourceTree = "<group>"; };
+		0D174919226469DE00A2051F /* crypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = crypt.h; sourceTree = "<group>"; };
+		0D17491A226469DE00A2051F /* zip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zip.h; sourceTree = "<group>"; };
+		0D17491B226469DE00A2051F /* unzip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = unzip.h; sourceTree = "<group>"; };
+		0D17491C226469DE00A2051F /* ioapi_mem.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ioapi_mem.c; sourceTree = "<group>"; };
+		0D17491D226469DE00A2051F /* minishared.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = minishared.c; sourceTree = "<group>"; };
+		0D17491E226469DE00A2051F /* ioapi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ioapi.h; sourceTree = "<group>"; };
+		0D17491F226469DE00A2051F /* ioapi_buf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ioapi_buf.h; sourceTree = "<group>"; };
+		0D174921226469DE00A2051F /* prng.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = prng.h; sourceTree = "<group>"; };
+		0D174922226469DE00A2051F /* aes_ni.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aes_ni.h; sourceTree = "<group>"; };
+		0D174923226469DE00A2051F /* aeskey.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = aeskey.c; sourceTree = "<group>"; };
+		0D174924226469DE00A2051F /* hmac.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = hmac.c; sourceTree = "<group>"; };
+		0D174925226469DE00A2051F /* aestab.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aestab.h; sourceTree = "<group>"; };
+		0D174926226469DE00A2051F /* pwd2key.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pwd2key.h; sourceTree = "<group>"; };
+		0D174927226469DE00A2051F /* aescrypt.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = aescrypt.c; sourceTree = "<group>"; };
+		0D174928226469DE00A2051F /* fileenc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = fileenc.c; sourceTree = "<group>"; };
+		0D174929226469DE00A2051F /* aesopt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aesopt.h; sourceTree = "<group>"; };
+		0D17492A226469DE00A2051F /* sha1.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sha1.c; sourceTree = "<group>"; };
+		0D17492B226469DE00A2051F /* brg_types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = brg_types.h; sourceTree = "<group>"; };
+		0D17492C226469DE00A2051F /* hmac.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hmac.h; sourceTree = "<group>"; };
+		0D17492D226469DE00A2051F /* aes_ni.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = aes_ni.c; sourceTree = "<group>"; };
+		0D17492E226469DE00A2051F /* brg_endian.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = brg_endian.h; sourceTree = "<group>"; };
+		0D17492F226469DE00A2051F /* prng.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = prng.c; sourceTree = "<group>"; };
+		0D174930226469DE00A2051F /* aes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aes.h; sourceTree = "<group>"; };
+		0D174931226469DE00A2051F /* pwd2key.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pwd2key.c; sourceTree = "<group>"; };
+		0D174932226469DE00A2051F /* aestab.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = aestab.c; sourceTree = "<group>"; };
+		0D174933226469DE00A2051F /* sha1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sha1.h; sourceTree = "<group>"; };
+		0D174934226469DE00A2051F /* fileenc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fileenc.h; sourceTree = "<group>"; };
+		0D174935226469DE00A2051F /* SSZipArchive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSZipArchive.h; sourceTree = "<group>"; };
+		0D174936226469DE00A2051F /* SSZipCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSZipCommon.h; sourceTree = "<group>"; };
+		0D174937226469DE00A2051F /* SSZipArchive.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSZipArchive.m; sourceTree = "<group>"; };
+		0D17494C22646D8F00A2051F /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		0D1749552264A88100A2051F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0D18D8F6225F3F0500EA43AF /* Cesh.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cesh.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D18D8F9225F3F0500EA43AF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0D18D8FA225F3F0500EA43AF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0D18D8FC225F3F0500EA43AF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0D18D8FD225F3F0500EA43AF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0D18D900225F3F0500EA43AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0D18D902225F3F0700EA43AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0D18D905225F3F0700EA43AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0D18D907225F3F0700EA43AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0D18D908225F3F0700EA43AF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0D18D90E225F3F0700EA43AF /* CeshTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CeshTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D18D912225F3F0700EA43AF /* CeshTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CeshTests.m; sourceTree = "<group>"; };
+		0D18D914225F3F0700EA43AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0D18D919225F3F0700EA43AF /* CeshUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CeshUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D18D91D225F3F0700EA43AF /* CeshUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CeshUITests.m; sourceTree = "<group>"; };
+		0D18D91F225F3F0700EA43AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0D18D8F3225F3F0500EA43AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D1749562264A88200A2051F /* Foundation.framework in Frameworks */,
+				0D17494D22646D8F00A2051F /* libz.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D18D90B225F3F0700EA43AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D18D916225F3F0700EA43AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0D17490F226469DE00A2051F /* SSZipArchive */ = {
+			isa = PBXGroup;
+			children = (
+				0D174910226469DE00A2051F /* ZipArchive.h */,
+				0D174911226469DE00A2051F /* minizip */,
+				0D174935226469DE00A2051F /* SSZipArchive.h */,
+				0D174936226469DE00A2051F /* SSZipCommon.h */,
+				0D174937226469DE00A2051F /* SSZipArchive.m */,
+			);
+			path = SSZipArchive;
+			sourceTree = "<group>";
+		};
+		0D174911226469DE00A2051F /* minizip */ = {
+			isa = PBXGroup;
+			children = (
+				0D174912226469DE00A2051F /* crypt.c */,
+				0D174913226469DE00A2051F /* unzip.c */,
+				0D174914226469DE00A2051F /* zip.c */,
+				0D174915226469DE00A2051F /* minishared.h */,
+				0D174916226469DE00A2051F /* ioapi.c */,
+				0D174917226469DE00A2051F /* ioapi_mem.h */,
+				0D174918226469DE00A2051F /* ioapi_buf.c */,
+				0D174919226469DE00A2051F /* crypt.h */,
+				0D17491A226469DE00A2051F /* zip.h */,
+				0D17491B226469DE00A2051F /* unzip.h */,
+				0D17491C226469DE00A2051F /* ioapi_mem.c */,
+				0D17491D226469DE00A2051F /* minishared.c */,
+				0D17491E226469DE00A2051F /* ioapi.h */,
+				0D17491F226469DE00A2051F /* ioapi_buf.h */,
+				0D174920226469DE00A2051F /* aes */,
+			);
+			path = minizip;
+			sourceTree = "<group>";
+		};
+		0D174920226469DE00A2051F /* aes */ = {
+			isa = PBXGroup;
+			children = (
+				0D174921226469DE00A2051F /* prng.h */,
+				0D174922226469DE00A2051F /* aes_ni.h */,
+				0D174923226469DE00A2051F /* aeskey.c */,
+				0D174924226469DE00A2051F /* hmac.c */,
+				0D174925226469DE00A2051F /* aestab.h */,
+				0D174926226469DE00A2051F /* pwd2key.h */,
+				0D174927226469DE00A2051F /* aescrypt.c */,
+				0D174928226469DE00A2051F /* fileenc.c */,
+				0D174929226469DE00A2051F /* aesopt.h */,
+				0D17492A226469DE00A2051F /* sha1.c */,
+				0D17492B226469DE00A2051F /* brg_types.h */,
+				0D17492C226469DE00A2051F /* hmac.h */,
+				0D17492D226469DE00A2051F /* aes_ni.c */,
+				0D17492E226469DE00A2051F /* brg_endian.h */,
+				0D17492F226469DE00A2051F /* prng.c */,
+				0D174930226469DE00A2051F /* aes.h */,
+				0D174931226469DE00A2051F /* pwd2key.c */,
+				0D174932226469DE00A2051F /* aestab.c */,
+				0D174933226469DE00A2051F /* sha1.h */,
+				0D174934226469DE00A2051F /* fileenc.h */,
+			);
+			path = aes;
+			sourceTree = "<group>";
+		};
+		0D17494B22646D8E00A2051F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0D1749552264A88100A2051F /* Foundation.framework */,
+				0D17494C22646D8F00A2051F /* libz.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0D18D8ED225F3F0500EA43AF = {
+			isa = PBXGroup;
+			children = (
+				0D18D8F8225F3F0500EA43AF /* Cesh */,
+				0D18D911225F3F0700EA43AF /* CeshTests */,
+				0D18D91C225F3F0700EA43AF /* CeshUITests */,
+				0D18D8F7225F3F0500EA43AF /* Products */,
+				0D17494B22646D8E00A2051F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0D18D8F7225F3F0500EA43AF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0D18D8F6225F3F0500EA43AF /* Cesh.app */,
+				0D18D90E225F3F0700EA43AF /* CeshTests.xctest */,
+				0D18D919225F3F0700EA43AF /* CeshUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0D18D8F8225F3F0500EA43AF /* Cesh */ = {
+			isa = PBXGroup;
+			children = (
+				0D17490F226469DE00A2051F /* SSZipArchive */,
+				0D18D8F9225F3F0500EA43AF /* AppDelegate.h */,
+				0D18D8FA225F3F0500EA43AF /* AppDelegate.m */,
+				0D18D8FC225F3F0500EA43AF /* ViewController.h */,
+				0D18D8FD225F3F0500EA43AF /* ViewController.m */,
+				0D18D8FF225F3F0500EA43AF /* Main.storyboard */,
+				0D18D902225F3F0700EA43AF /* Assets.xcassets */,
+				0D18D904225F3F0700EA43AF /* LaunchScreen.storyboard */,
+				0D18D907225F3F0700EA43AF /* Info.plist */,
+				0D18D908225F3F0700EA43AF /* main.m */,
+			);
+			path = Cesh;
+			sourceTree = "<group>";
+		};
+		0D18D911225F3F0700EA43AF /* CeshTests */ = {
+			isa = PBXGroup;
+			children = (
+				0D18D912225F3F0700EA43AF /* CeshTests.m */,
+				0D18D914225F3F0700EA43AF /* Info.plist */,
+			);
+			path = CeshTests;
+			sourceTree = "<group>";
+		};
+		0D18D91C225F3F0700EA43AF /* CeshUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0D18D91D225F3F0700EA43AF /* CeshUITests.m */,
+				0D18D91F225F3F0700EA43AF /* Info.plist */,
+			);
+			path = CeshUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0D18D8F5225F3F0500EA43AF /* Cesh */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D18D922225F3F0700EA43AF /* Build configuration list for PBXNativeTarget "Cesh" */;
+			buildPhases = (
+				0D18D8F2225F3F0500EA43AF /* Sources */,
+				0D18D8F3225F3F0500EA43AF /* Frameworks */,
+				0D18D8F4225F3F0500EA43AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Cesh;
+			productName = Cesh;
+			productReference = 0D18D8F6225F3F0500EA43AF /* Cesh.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0D18D90D225F3F0700EA43AF /* CeshTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D18D925225F3F0700EA43AF /* Build configuration list for PBXNativeTarget "CeshTests" */;
+			buildPhases = (
+				0D18D90A225F3F0700EA43AF /* Sources */,
+				0D18D90B225F3F0700EA43AF /* Frameworks */,
+				0D18D90C225F3F0700EA43AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0D18D910225F3F0700EA43AF /* PBXTargetDependency */,
+			);
+			name = CeshTests;
+			productName = CeshTests;
+			productReference = 0D18D90E225F3F0700EA43AF /* CeshTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0D18D918225F3F0700EA43AF /* CeshUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D18D928225F3F0700EA43AF /* Build configuration list for PBXNativeTarget "CeshUITests" */;
+			buildPhases = (
+				0D18D915225F3F0700EA43AF /* Sources */,
+				0D18D916225F3F0700EA43AF /* Frameworks */,
+				0D18D917225F3F0700EA43AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0D18D91B225F3F0700EA43AF /* PBXTargetDependency */,
+			);
+			name = CeshUITests;
+			productName = CeshUITests;
+			productReference = 0D18D919225F3F0700EA43AF /* CeshUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0D18D8EE225F3F0500EA43AF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "kgc－mac";
+				TargetAttributes = {
+					0D18D8F5225F3F0500EA43AF = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					0D18D90D225F3F0700EA43AF = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 0D18D8F5225F3F0500EA43AF;
+					};
+					0D18D918225F3F0700EA43AF = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 0D18D8F5225F3F0500EA43AF;
+					};
+				};
+			};
+			buildConfigurationList = 0D18D8F1225F3F0500EA43AF /* Build configuration list for PBXProject "Cesh" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0D18D8ED225F3F0500EA43AF;
+			productRefGroup = 0D18D8F7225F3F0500EA43AF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0D18D8F5225F3F0500EA43AF /* Cesh */,
+				0D18D90D225F3F0700EA43AF /* CeshTests */,
+				0D18D918225F3F0700EA43AF /* CeshUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0D18D8F4225F3F0500EA43AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D18D906225F3F0700EA43AF /* LaunchScreen.storyboard in Resources */,
+				0D18D903225F3F0700EA43AF /* Assets.xcassets in Resources */,
+				0D18D901225F3F0500EA43AF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D18D90C225F3F0700EA43AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D18D917225F3F0700EA43AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0D18D8F2225F3F0500EA43AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D174944226469DE00A2051F /* sha1.c in Sources */,
+				0D174941226469DE00A2051F /* hmac.c in Sources */,
+				0D17493E226469DE00A2051F /* ioapi_mem.c in Sources */,
+				0D174942226469DE00A2051F /* aescrypt.c in Sources */,
+				0D18D8FE225F3F0500EA43AF /* ViewController.m in Sources */,
+				0D174940226469DE00A2051F /* aeskey.c in Sources */,
+				0D17493A226469DE00A2051F /* unzip.c in Sources */,
+				0D174946226469DE00A2051F /* prng.c in Sources */,
+				0D17493D226469DE00A2051F /* ioapi_buf.c in Sources */,
+				0D174945226469DE00A2051F /* aes_ni.c in Sources */,
+				0D18D909225F3F0700EA43AF /* main.m in Sources */,
+				0D17493B226469DE00A2051F /* zip.c in Sources */,
+				0D174939226469DE00A2051F /* crypt.c in Sources */,
+				0D18D8FB225F3F0500EA43AF /* AppDelegate.m in Sources */,
+				0D17493C226469DE00A2051F /* ioapi.c in Sources */,
+				0D174943226469DE00A2051F /* fileenc.c in Sources */,
+				0D174949226469DE00A2051F /* SSZipArchive.m in Sources */,
+				0D174947226469DE00A2051F /* pwd2key.c in Sources */,
+				0D17493F226469DE00A2051F /* minishared.c in Sources */,
+				0D174948226469DE00A2051F /* aestab.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D18D90A225F3F0700EA43AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D18D913225F3F0700EA43AF /* CeshTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D18D915225F3F0700EA43AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D18D91E225F3F0700EA43AF /* CeshUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0D18D910225F3F0700EA43AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0D18D8F5225F3F0500EA43AF /* Cesh */;
+			targetProxy = 0D18D90F225F3F0700EA43AF /* PBXContainerItemProxy */;
+		};
+		0D18D91B225F3F0700EA43AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0D18D8F5225F3F0500EA43AF /* Cesh */;
+			targetProxy = 0D18D91A225F3F0700EA43AF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0D18D8FF225F3F0500EA43AF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0D18D900225F3F0500EA43AF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0D18D904225F3F0700EA43AF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0D18D905225F3F0700EA43AF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0D18D920225F3F0700EA43AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0D18D921225F3F0700EA43AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0D18D923225F3F0700EA43AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PYWM3BJQ37;
+				INFOPLIST_FILE = Cesh/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Cesh",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = KGC.Cesh;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0D18D924225F3F0700EA43AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PYWM3BJQ37;
+				INFOPLIST_FILE = Cesh/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Cesh",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = KGC.Cesh;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0D18D926225F3F0700EA43AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PYWM3BJQ37;
+				INFOPLIST_FILE = CeshTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = KGC.CeshTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cesh.app/Cesh";
+			};
+			name = Debug;
+		};
+		0D18D927225F3F0700EA43AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PYWM3BJQ37;
+				INFOPLIST_FILE = CeshTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = KGC.CeshTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cesh.app/Cesh";
+			};
+			name = Release;
+		};
+		0D18D929225F3F0700EA43AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PYWM3BJQ37;
+				INFOPLIST_FILE = CeshUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = KGC.CeshUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Cesh;
+			};
+			name = Debug;
+		};
+		0D18D92A225F3F0700EA43AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PYWM3BJQ37;
+				INFOPLIST_FILE = CeshUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = KGC.CeshUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Cesh;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0D18D8F1225F3F0500EA43AF /* Build configuration list for PBXProject "Cesh" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D18D920225F3F0700EA43AF /* Debug */,
+				0D18D921225F3F0700EA43AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0D18D922225F3F0700EA43AF /* Build configuration list for PBXNativeTarget "Cesh" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D18D923225F3F0700EA43AF /* Debug */,
+				0D18D924225F3F0700EA43AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0D18D925225F3F0700EA43AF /* Build configuration list for PBXNativeTarget "CeshTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D18D926225F3F0700EA43AF /* Debug */,
+				0D18D927225F3F0700EA43AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0D18D928225F3F0700EA43AF /* Build configuration list for PBXNativeTarget "CeshUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D18D929225F3F0700EA43AF /* Debug */,
+				0D18D92A225F3F0700EA43AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0D18D8EE225F3F0500EA43AF /* Project object */;
+}
